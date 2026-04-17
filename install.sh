@@ -13,7 +13,7 @@ set -euo pipefail
 # ═══════════════════════════════════════════════════════════════════════════════
 # Default values — modifica OWNER/REPO con il tuo repo GitHub
 # ═══════════════════════════════════════════════════════════════════════════════
-REPO_URL="${REPO_URL:-https://raw.githubusercontent.com/OWNER/REPO/main}"
+REPO_URL="${REPO_URL:-https://raw.githubusercontent.com/lucapolignone/simple-mcp/main}"
 INSTALL_DIR="${INSTALL_DIR:-$HOME/.local/share/qdrant-mcp}"
 CLAUDE_CONFIG="${CLAUDE_CONFIG:-$HOME/.claude/claude.json}"
 
