@@ -15,7 +15,7 @@ set -euo pipefail
 # ═══════════════════════════════════════════════════════════════════════════════
 REPO_URL="${REPO_URL:-https://raw.githubusercontent.com/OWNER/REPO/main}"
 INSTALL_DIR="${INSTALL_DIR:-$HOME/.local/share/qdrant-mcp}"
-CLAUDE_CONFIG="${CLAUDE_CONFIG:-$HOME/.claude.json}"
+CLAUDE_CONFIG="${CLAUDE_CONFIG:-$HOME/.claude/claude.json}"
 
 SERVER_NAME=""
 COLLECTION=""
@@ -48,7 +48,7 @@ Opzioni obbligatorie:
 
 Opzioni facoltative:
   --limit N                Max risultati per query (default: 8)
-  --config PATH            File config Claude (default: ~/.claude.json)
+  --config PATH            File config Claude (default: ~/.claude/claude.json)
   --install-dir PATH       Directory installazione (default: ~/.local/share/qdrant-mcp)
   --repo-url URL           Base URL repo (default: hardcoded)
 EOF
